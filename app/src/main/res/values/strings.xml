@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Material Componets Catalog</string>
+  <string name="bottom_app_bar">Bottom App Bar</string>
 </resources>
