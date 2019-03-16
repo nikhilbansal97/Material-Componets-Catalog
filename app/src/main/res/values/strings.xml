@@ -7,4 +7,5 @@
   <string name="restaurant">Restaurant</string>
   <string name="school">School</string>
   <string name="bottom_navigation">Bottom Navigation</string>
+  <string name="chip">Chip</string>
 </resources>

@@ -9,6 +9,7 @@ import com.app.nikhil.materialcomponetscatalog.R.drawable
 import com.app.nikhil.materialcomponetscatalog.R.id
 import com.app.nikhil.materialcomponetscatalog.fragments.BottomAppBarFragment
 import com.app.nikhil.materialcomponetscatalog.fragments.BottomNavigationFragment
+import com.app.nikhil.materialcomponetscatalog.fragments.ChipFragment
 import kotlinx.android.synthetic.main.activity_main.drawerLayout
 import kotlinx.android.synthetic.main.activity_main.navigationView
 
@@ -51,6 +52,7 @@ class MainActivity : AppCompatActivity() {
     val fragment = when (menuItem.itemId) {
       R.id.itemBottomAppBar -> BottomAppBarFragment()
       R.id.itemBottomNavigation -> BottomNavigationFragment()
+      R.id.chip -> ChipFragment()
       else -> null
     }
     fragment?.let {
