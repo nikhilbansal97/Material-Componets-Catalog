@@ -8,6 +8,7 @@ import androidx.core.view.GravityCompat
 import com.app.nikhil.materialcomponetscatalog.R.drawable
 import com.app.nikhil.materialcomponetscatalog.R.id
 import com.app.nikhil.materialcomponetscatalog.fragments.BottomAppBarFragment
+import com.app.nikhil.materialcomponetscatalog.fragments.BottomNavigationFragment
 import kotlinx.android.synthetic.main.activity_main.drawerLayout
 import kotlinx.android.synthetic.main.activity_main.navigationView
 
@@ -49,6 +50,7 @@ class MainActivity : AppCompatActivity() {
   private fun openFragment(menuItem: MenuItem) {
     val fragment = when (menuItem.itemId) {
       R.id.itemBottomAppBar -> BottomAppBarFragment()
+      R.id.itemBottomNavigation -> BottomNavigationFragment()
       else -> null
     }
     fragment?.let {

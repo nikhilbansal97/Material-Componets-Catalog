@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/item_cake"
+        android:icon="@drawable/ic_cake"
+        android:title="@string/cake"/>
+    <item
+        android:id="@+id/item_fitness"
+        android:icon="@drawable/ic_fitness"
+        android:title="@string/fitness"/>
+    <item
+        android:id="@+id/item_casino"
+        android:icon="@drawable/ic_casino"
+        android:title="@string/casino"/>
+    <item
+        android:id="@+id/item_restaurant"
+        android:icon="@drawable/ic_restaurant"
+        android:title="@string/restaurant"/>
+    <item
+        android:id="@+id/item_school"
+        android:icon="@drawable/ic_school"
+        android:title="@string/school"/>
+  </group>
+</menu>

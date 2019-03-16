@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Material Componets Catalog</string>
   <string name="bottom_app_bar">Bottom App Bar</string>
+  <string name="cake">Cake</string>
+  <string name="fitness">Fitness</string>
+  <string name="casino">Casino</string>
+  <string name="restaurant">Restaurant</string>
+  <string name="school">School</string>
+  <string name="bottom_navigation">Bottom Navigation</string>
 </resources>

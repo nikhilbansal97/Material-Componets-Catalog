@@ -4,5 +4,8 @@
     <item
         android:id="@+id/itemBottomAppBar"
         android:title="@string/bottom_app_bar"/>
+    <item
+        android:id="@+id/itemBottomNavigation"
+        android:title="@string/bottom_navigation"/>
   </group>
 </menu>
